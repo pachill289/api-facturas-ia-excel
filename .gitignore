@@ -1,0 +1,45 @@
+# Entorno virtual
+venv/
+.env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución / build
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Variables sensibles
+.env
+.env.*
+
+# Archivos temporales
+*.tmp
+*.swp
+
+# PDFs (opcional, si haces pruebas locales)
+*.pdf
+
+# Excel (opcional)
+*.xlsx
+
+# Render / deploy
+.render/
